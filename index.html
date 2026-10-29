@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="فروشگاه آنلاین پته‌دوزی، جواهرات گلدوزی و جعبه‌های چوبی دست‌ساز کرمان"><meta name="theme-color" content="#1E2A5E"><meta property="og:title" content="بافته‌های کرمان"><meta property="og:description" content="خرید و فروش صنایع دستی کرمان"><title>بافته‌های کرمان | فروشگاه آنلاین صنایع دستی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4F5F9;--ink:#161B33;--mute:#5A607F;--card:#fff;--line:#D9DCE8;--indigo:#1E2A5E;--red:#B03A2E;--saffron:#E0A126;--onind:#F4F5F9;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12152A;--ink:#ECEEF8;--mute:#A3A9C9;--card:#1B1F3A;--line:#2C3156;--indigo:#0C1030;--red:#E5675A}}
+:root[data-theme="dark"]{--bg:#12152A;--ink:#ECEEF8;--mute:#A3A9C9;--card:#1B1F3A;--line:#2C3156;--indigo:#0C1030;--red:#E5675A}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9;font-size:16px}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--saffron);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--indigo);color:var(--onind)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--indigo);z-index:21}
+header .wrap{display:flex;align-items:center;gap:20px;height:64px}
+.logo{font-weight:900;font-size:20px;text-decoration:none;margin-inline-end:auto}
+nav{display:flex;gap:18px}
+nav a{text-decoration:none;font-size:15px;opacity:.9}
+nav a:hover{opacity:1;text-decoration:underline}
+.cartbtn{background:var(--saffron);color:#161B33;border:0;border-radius:8px;padding:6px 14px;font-weight:700;cursor:pointer}
+.hero{background:var(--indigo);color:var(--onind);padding:56px 0 0}
+.hero h1{font-size:clamp(32px,6vw,58px);line-height:1.35;margin:0 0 16px;font-weight:900;max-width:14em}
+.hero p{max-width:34em;margin:0 0 28px;font-size:18px;opacity:.9}
+.btns{display:flex;flex-wrap:wrap;gap:12px;padding-bottom:48px}
+.btn{display:inline-block;border:2px solid var(--saffron);background:var(--saffron);color:#161B33;font-weight:700;border-radius:8px;padding:10px 22px;text-decoration:none;cursor:pointer}
+.btn.alt{background:transparent;color:inherit;border-color:currentColor}
+.hero .btn.alt{color:var(--onind)}
+.strip{display:block;width:100%;height:40px}
+section{padding:56px 0}
+h2{font-size:28px;margin:0 0 8px;font-weight:900}
+.sub{color:var(--mute);margin:0 0 24px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.chip{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:4px 16px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--indigo);color:var(--onind);border-color:var(--indigo)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px}
+.p{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.p svg{display:block;width:100%;height:140px}.p img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--line)}
+.pb{padding:14px 16px 16px;display:flex;flex-direction:column;gap:4px;flex:1}
+.pb h3{margin:0;font-size:17px;line-height:1.6}
+.pb small{color:var(--mute);line-height:1.7}
+.price{font-weight:700;margin-top:auto;padding-top:8px}
+.add{margin-top:8px;border:2px solid var(--indigo);background:transparent;border-radius:6px;padding:4px;cursor:pointer;font-weight:700}
+.add:hover{background:var(--indigo);color:var(--onind)}
+.craft{background:var(--card);border-block:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px}
+.cols h3{margin:0 0 4px;color:var(--red)}
+.cols p{margin:0;color:var(--mute)}
+form{display:grid;gap:14px;max-width:560px}
+label{display:grid;gap:4px;font-weight:500;font-size:15px}
+input,select,textarea{border:1.5px solid var(--line);background:var(--card);border-radius:6px;padding:8px 12px;width:100%}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.row{grid-template-columns:1fr}nav{display:none}}
+footer{background:var(--indigo);color:var(--onind);padding:32px 0;font-size:15px}
+aside{position:fixed;top:0;bottom:0;left:0;width:min(400px,100%);background:var(--card);z-index:40;transform:translateX(-105%);transition:transform .25s;display:flex;flex-direction:column;padding:calc(16px + env(safe-area-inset-top,0px)) 20px calc(16px + env(safe-area-inset-bottom,0px));border-inline-end:1px solid var(--line);overflow-y:auto}
+aside.open{transform:none}
+@media(prefers-reduced-motion:reduce){aside{transition:none}html{scroll-behavior:auto}}
+.ah{display:flex;justify-content:space-between;align-items:center}
+.ah h2{font-size:22px;margin:0}
+.x{border:0;background:none;font-size:26px;cursor:pointer;line-height:1}
+.it{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line)}
+.q{display:flex;align-items:center;gap:8px}
+.q button{width:28px;height:28px;border-radius:50%;border:1.5px solid var(--line);background:none;cursor:pointer}
+.tot{display:flex;justify-content:space-between;font-weight:900;padding:14px 0}
+.msg{background:var(--saffron);color:#161B33;border-radius:6px;padding:12px;font-weight:500}
+#toast{position:fixed;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 20px;border-radius:8px;z-index:50;opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.on{opacity:1}
+
+.hero{background:radial-gradient(70% 90% at 25% 45%,rgba(255,255,255,.12),transparent),var(--indigo);overflow:hidden}
+.hg{display:grid;grid-template-columns:1.05fr 1fr;gap:16px;align-items:center;padding-bottom:36px}
+.stage{perspective:1100px;height:400px;position:relative;touch-action:pan-y;cursor:grab;user-select:none}
+.stage:active{cursor:grabbing}
+.stage::after{content:"";position:absolute;left:12%;right:12%;bottom:14px;height:34px;background:radial-gradient(closest-side,rgba(0,0,0,.5),transparent);filter:blur(6px)}
+.ring{--r:370px;position:absolute;inset:0;margin:auto;width:190px;height:262px;transform-style:preserve-3d;transform:translateZ(calc(var(--r) * -1)) rotateX(-7deg) rotateY(var(--ry,0deg))}
+.c{position:absolute;inset:0;transform:rotateY(var(--a)) translateZ(var(--r));backface-visibility:hidden;-webkit-backface-visibility:hidden;border:3px solid var(--saffron);border-radius:8px;overflow:hidden;box-shadow:0 24px 44px rgba(0,0,0,.5);background:#222}
+.c img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.btns{padding-bottom:0}
+.grid{perspective:1300px}
+.p{border-radius:10px;transition:transform .18s ease-out,box-shadow .18s;transform-style:preserve-3d;will-change:transform}
+.p:hover{box-shadow:0 26px 40px -20px rgba(22,27,51,.55)}
+.p img{transition:transform .4s}
+.p:hover img{transform:scale(1.04)}
+.p{overflow:hidden}
+@media(max-width:760px){.hg{grid-template-columns:1fr}.stage{height:310px}.ring{--r:255px;width:140px;height:196px}}
+@media(prefers-reduced-motion:reduce){.p,.p img{transition:none}}
+
+.tools{display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap}.tools input{flex:1;min-width:180px}.tools select{width:auto}
+.ph{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.del{margin-top:6px;border:0;background:none;color:var(--red);cursor:pointer;text-decoration:underline}
+dialog{position:relative;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);padding:0;width:min(760px,94vw);max-height:90vh;overflow:auto}
+dialog::backdrop{background:rgba(10,12,30,.65)}
+.qv{display:grid;grid-template-columns:1fr 1fr}.qv img,.qv svg{display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5}
+.qt{padding:28px 24px;display:flex;flex-direction:column;gap:8px}.qt h2{font-size:22px}.qt p{margin:0;color:var(--mute)}
+#qx{position:absolute;top:6px;left:12px;z-index:2;color:#fff;text-shadow:0 1px 4px #000}
+@media(max-width:640px){.qv{grid-template-columns:1fr}}
+details{border-bottom:1px solid var(--line);padding:10px 0}summary{cursor:pointer;font-weight:700}details p{margin:6px 0 0;color:var(--mute)}.faq{max-width:700px}
+footer a{margin-inline-start:6px}
+#done pre{margin:8px 0;font:inherit}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#top">بافته‌های کرمان</a>
+<nav aria-label="منوی اصلی"><a href="#shop">فروشگاه</a><a href="#craft">هنرهای کرمان</a><a href="#sell">فروش در سایت</a><a href="#faq">پرسش‌ها</a></nav>
+<button class="cartbtn" id="cartBtn" aria-controls="cart">سبد خرید (<span id="cnt">۰</span>)</button>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap hg"><div class="ht">
+<h1>بافته‌های اصیل کرمان، مستقیم از دست هنرمند</h1>
+<p>پته‌دوزی، جواهرات گلدوزی و جعبه‌های چوبی دست‌ساز از کرمان. بخرید، یا محصول خودتان را برای فروش بگذارید.</p>
+<div class="btns"><a class="btn" href="#shop">مشاهده محصولات</a><a class="btn alt" href="#sell">محصول خودم را می‌فروشم</a></div>
+</div>
+<div class="stage" id="stage" aria-hidden="true"><div class="ring" id="ring"></div></div>
+</div>
+<svg class="strip" aria-hidden="true" preserveAspectRatio="none"><defs><pattern id="hs" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#B03A2E"/><path d="M20 3L37 20L20 37L3 20Z" fill="#E0A126"/><path d="M20 12L28 20L20 28L12 20Z" fill="#1E2A5E"/></pattern></defs><rect width="100%" height="100%" fill="url(#hs)"/></svg>
+</div>
+
+<section id="shop"><div class="wrap">
+<h2>فروشگاه</h2>
+<p class="sub">هر قطعه دستباف است و چند روز تا چند ماه زمان برده است.</p>
+<div class="chips" id="chips" role="group" aria-label="دسته‌بندی"></div>
+<div class="tools"><input id="q" type="search" placeholder="جستجوی محصول" aria-label="جستجو"><select id="sort" aria-label="مرتب‌سازی"><option value="">مرتب‌سازی</option><option value="a">ارزان‌ترین</option><option value="d">گران‌ترین</option></select></div>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<section class="craft" id="craft"><div class="wrap">
+<h2>آنچه در کارگاه ما ساخته می‌شود</h2>
+<p class="sub">همه‌ی کارها با دست و در کرمان ساخته می‌شوند.</p>
+<div class="cols">
+<div><h3>جواهرات گلدوزی</h3><p>گردنبند، گوشواره، انگشتر و دستبند با نقش گلدوزی دست در قاب برنزی.</p></div>
+<div><h3>پته‌دوزی</h3><p>گلدوزی ریز با نخ رنگی روی پارچه‌ی ضخیم. هر نقش به ساعت‌ها کار دست نیاز دارد.</p></div>
+<div><h3>جعبه‌های چوبی</h3><p>قاب چوبی با پارچه‌ی پته‌دوزی‌شده، مناسب هدیه و دکور خانه.</p></div>
+</div></div></section>
+
+<section id="sell"><div class="wrap">
+<h2>محصول خودتان را بفروشید</h2>
+<p class="sub">اگر بافنده یا صنعتگر هستید، محصول را ثبت کنید تا در فروشگاه نمایش داده شود.</p>
+<form id="sellForm">
+<label>نام محصول<input name="title" required maxlength="60" placeholder="مثلاً گلیم دستباف ۶ متری"></label>
+<div class="row">
+<label>دسته‌بندی<select name="cat"></select></label>
+<label>قیمت (تومان)<input name="price" type="number" min="1000" step="1000" required inputmode="numeric"></label>
+</div>
+<label>نام فروشنده<input name="seller" required maxlength="40"></label>
+<label>توضیح کوتاه<textarea name="desc" rows="3" maxlength="160"></textarea></label>
+<label>عکس محصول<input name="photo" type="file" accept="image/*"></label>
+<button class="btn" type="submit">ثبت محصول</button>
+</form>
+</div></section>
+<section id="faq"><div class="wrap"><h2>پرسش‌های پرتکرار</h2><div class="faq">
+<details><summary>سفارش را چطور ثبت کنم؟</summary><p>محصول را به سبد اضافه کنید، نام، موبایل و آدرس را بنویسید و سفارش را برای فروشنده بفرستید. پرداخت و ارسال با هماهنگی فروشنده انجام می‌شود.</p></details>
+<details><summary>زمان ارسال چقدر است؟</summary><p>فروشنده هنگام هماهنگی زمان ارسال را اعلام می‌کند. کارهای دست‌ساز ممکن است چند روز زمان نیاز داشته باشند.</p></details>
+<details><summary>می‌شود طرح یا رنگ سفارشی داد؟</summary><p>برای سفارش اختصاصی پیش از ثبت سفارش با فروشنده صحبت کنید.</p></details>
+</div></div></section>
+</main>
+
+<footer><div class="wrap" id="ft"></div></footer>
+<dialog id="qv" aria-label="جزئیات محصول"><button class="x" id="qx" aria-label="بستن">×</button><div id="qb"></div></dialog>
+
+<aside id="cart" aria-label="سبد خرید" aria-hidden="true">
+<div class="ah"><h2>سبد خرید</h2><button class="x" id="closeCart" aria-label="بستن سبد">×</button></div>
+<div id="items"></div>
+<div class="tot"><span>جمع کل</span><span id="total">۰</span></div>
+<form id="co" hidden>
+<label>نام و نام خانوادگی<input name="n" required></label>
+<label>شماره موبایل<input name="m" required inputmode="tel" autocomplete="tel" placeholder="۰۹۱۲۳۴۵۶۷۸۹"></label>
+<label>آدرس کامل<textarea name="a" rows="2" required></textarea></label>
+<button class="btn" type="submit">ثبت سفارش</button>
+</form>
+<div class="msg" id="done" hidden></div>
+</aside>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+var CONFIG={wa:'',tg:'',insta:'',phone:''};
+var CATS=['رانر و رومیزی','ست کوسن و رانر','جواهرات گلدوزی','جعبه‌های تزئینی'];
+var PAL=[['#1E2A5E','#B03A2E','#E0A126'],['#B03A2E','#1E2A5E','#F1E3C6'],['#2F6B5E','#E0A126','#F4F5F9'],['#5B2A4E','#E0A126','#F1E3C6'],['#E0A126','#1E2A5E','#B03A2E']];
+var BASE=[
+{id:'b1',i:'01',t:'رانر پته‌دوزی قرمز، طرح بته‌جقه',c:0,p:2800000,s:'کارگاه صنایع دستی کرمان',d:'گلدوزی دست روی پارچه‌ی قرمز با حاشیه‌ی گل‌دار'},
+{id:'b2',i:'09',t:'رومیزی چهارگوش پته، زمینه سفید',c:0,p:3600000,s:'کارگاه صنایع دستی کرمان',d:'مرکز مندلا، چهار بته‌جقه و حاشیه‌ی گلدوزی'},
+{id:'b3',i:'17',t:'ست رومیزی بیضی و دو کوسن پته',c:1,p:7500000,s:'کارگاه صنایع دستی کرمان',d:'رومیزی بیضی با دو کوسن هم‌طرح'},
+{id:'b4',i:'08',t:'ست رانر و دو کوسن پته آبی',c:1,p:6800000,s:'کارگاه صنایع دستی کرمان',d:'سه تکه، زمینه‌ی آبی با نقش ستاره و بته'},
+{id:'b5',i:'11',t:'ست رانر و دو کوسن پته قرمز',c:1,p:7200000,s:'کارگاه صنایع دستی کرمان',d:'سه تکه، زمینه‌ی قرمز با نقش ستاره و بته'},
+{id:'b6',i:'12',t:'ست رومیزی و دو کوسن پته، زمینه قهوه‌ای',c:1,p:6900000,s:'کارگاه صنایع دستی کرمان',d:'رومیزی شش‌ضلعی با دو کوسن هم‌طرح'},
+{id:'b7',i:'14',t:'ست رانر و دو کوسن پته زرد',c:1,p:7400000,s:'کارگاه صنایع دستی کرمان',d:'زمینه‌ی زرد، حاشیه‌ی گل و بته‌جقه'},
+{id:'b8',i:'16',t:'ست درخت زندگی پته، زمینه زرد',c:1,p:8200000,s:'کارگاه صنایع دستی کرمان',d:'رانر و دو کوسن با نقش درخت زندگی'},
+{id:'b9',i:'02',t:'گردنبند گلدوزی، زمینه خردلی',c:2,p:650000,s:'کارگاه صنایع دستی کرمان',d:'گلدوزی دست در قاب برنزی'},
+{id:'b10',i:'03',t:'ست جواهر گلدوزی، زمینه سفید',c:2,p:1450000,s:'کارگاه صنایع دستی کرمان',d:'گردنبند، گوشواره، انگشتر و دستبند'},
+{id:'b11',i:'04',t:'گردنبند گلدوزی، پنج طرح',c:2,p:700000,s:'کارگاه صنایع دستی کرمان',d:'پنج طرح و رنگ مختلف؛ قیمت هر عدد'},
+{id:'b12',i:'05',t:'ست جواهر گلدوزی، زمینه خردلی',c:2,p:1450000,s:'کارگاه صنایع دستی کرمان',d:'گردنبند، گوشواره، انگشتر و دستبند'},
+{id:'b13',i:'10',t:'ست گردنبند و گوشواره گلدوزی قرمز',c:2,p:1050000,s:'کارگاه صنایع دستی کرمان',d:'زمینه‌ی قرمز با نقش گل و برف‌دانه'},
+{id:'b14',i:'13',t:'ست جواهر گلدوزی، زمینه سرمه‌ای',c:2,p:1250000,s:'کارگاه صنایع دستی کرمان',d:'گردنبند، گوشواره، انگشتر و دستبند'},
+{id:'b15',i:'06',t:'جعبه‌ی چوبی با گلدوزی، طرح بته',c:3,p:1800000,s:'کارگاه صنایع دستی کرمان',d:'درِ چوبی و حاشیه‌ی گلابتون'},
+{id:'b16',i:'07',t:'جعبه‌ی چوبی، طرح درخت زندگی',c:3,p:2400000,s:'کارگاه صنایع دستی کرمان',d:'قاب چوبی با پارچه‌ی پته‌دوزی‌شده'},
+{id:'b17',i:'15',t:'جعبه‌ی چوبی با گلدوزی گل',c:3,p:1800000,s:'کارگاه صنایع دستی کرمان',d:'درِ چوبی و حاشیه‌ی گلابتون'}
+];
+var IM=function(i){return 'images/p'+i+'.jpg'};
+function ld(k,f){try{var v=JSON.parse(localStorage.getItem(k));return v==null?f:v}catch(e){return f}}
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+var custom=ld('kc_custom',[]),cart=ld('kc_cart',{}),cat=-1;
+var $=function(i){return document.getElementById(i)};
+var fa=function(n){return Number(n).toLocaleString('fa-IR')};
+var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+function all(){return BASE.concat(custom)}
+function art(i,n){var a=PAL[n%PAL.length];return '<svg viewBox="0 0 200 140" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><pattern id="q'+i+'" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="28" height="28" fill="'+a[0]+'"/><path d="M14 2L26 14L14 26L2 14Z" fill="'+a[1]+'"/><path d="M14 8L20 14L14 20L8 14Z" fill="'+a[2]+'"/></pattern></defs><rect width="200" height="140" fill="url(#q'+i+')"/></svg>'}
+function toast(t){var e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(function(){e.classList.remove('on')},2200)}
+function chips(){var h='<button class="chip" aria-pressed="'+(cat<0)+'" data-c="-1">همه</button>';CATS.forEach(function(c,i){h+='<button class="chip" aria-pressed="'+(cat===i)+'" data-c="'+i+'">'+c+'</button>'});$('chips').innerHTML=h}
+function pic(p){var s=p.img||(p.i?IM(p.i):'');return s?'<img src="'+s+'" alt="'+esc(p.t)+'" loading="lazy">':art(p.id,all().indexOf(p))}
+function grid(){var q=($('q').value||'').trim(),s=$('sort').value;var l=all().filter(function(p){return(cat<0||p.c===cat)&&(!q||(p.t+' '+(p.d||'')).indexOf(q)>-1)});if(s)l.sort(function(a,b){return s==='a'?a.p-b.p:b.p-a.p});$('grid').innerHTML=l.length?l.map(function(p){return '<article class="p"><button class="ph" data-v="'+p.id+'" aria-label="مشاهده '+esc(p.t)+'">'+pic(p)+'</button><div class="pb"><h3>'+esc(p.t)+'</h3><small>'+esc(p.d||'')+'</small><small>فروشنده: '+esc(p.s)+'</small><div class="price">'+fa(p.p)+' تومان</div><button class="add" data-a="'+p.id+'">افزودن به سبد</button>'+(p.own?'<button class="del" data-x="'+p.id+'">حذف محصول من</button>':'')+'</div></article>'}).join(''):'<p>محصولی پیدا نشد. جستجو یا دسته را عوض کنید.</p>'}
+function add(id){cart[id]=(cart[id]||0)+1;drawCart();toast('به سبد خرید اضافه شد')}
+function view(id){var p=all().filter(function(x){return x.id===id})[0];if(!p)return;$('qb').innerHTML='<div class="qv">'+pic(p)+'<div class="qt"><h2>'+esc(p.t)+'</h2><p>'+esc(p.d||'')+'</p><small>فروشنده: '+esc(p.s)+'</small><div class="price">'+fa(p.p)+' تومان</div><button class="btn" id="qadd">افزودن به سبد</button></div></div>';$('qadd').onclick=function(){add(id);$('qv').close()};$('qv').showModal()}
+function drawCart(){var ids=Object.keys(cart).filter(function(k){return cart[k]>0&&all().some(function(p){return p.id===k})}),sum=0,n=0;
+$('items').innerHTML=ids.length?ids.map(function(k){var p=all().filter(function(x){return x.id===k})[0];sum+=p.p*cart[k];n+=cart[k];return '<div class="it"><span>'+esc(p.t)+'<br><small>'+fa(p.p*cart[k])+' تومان</small></span><span class="q"><button data-m="'+k+'" aria-label="کم کردن">−</button>'+fa(cart[k])+'<button data-pl="'+k+'" aria-label="زیاد کردن">+</button></span></div>'}).join(''):'<p>سبد خرید خالی است. از فروشگاه محصولی اضافه کنید.</p>';
+$('total').textContent=fa(sum)+' تومان';$('cnt').textContent=fa(n);$('co').hidden=!ids.length;sv('kc_cart',cart)}
+function open(o){var a=$('cart');a.classList.toggle('open',o);a.setAttribute('aria-hidden',!o);if(o){$('done').hidden=true;$('closeCart').focus()}}
+$('chips').onclick=function(e){var c=e.target.dataset.c;if(c==null)return;cat=+c;chips();grid()};
+$('grid').onclick=function(e){var t=e.target.closest('button');if(!t)return;var d=t.dataset;if(d.a)add(d.a);else if(d.v)view(d.v);else if(d.x){custom=custom.filter(function(p){return p.id!==d.x});delete cart[d.x];sv('kc_custom',custom);grid();drawCart();toast('محصول حذف شد')}};
+$('qx').onclick=function(){$('qv').close()};$('qv').onclick=function(e){if(e.target===$('qv'))$('qv').close()};
+$('items').onclick=function(e){var m=e.target.dataset.m,p=e.target.dataset.pl;if(m)cart[m]--;if(p)cart[p]++;if(m||p)drawCart()};
+$('cartBtn').onclick=function(){open(true)};
+$('closeCart').onclick=function(){open(false);$('cartBtn').focus()};
+document.addEventListener('keydown',function(e){if(e.key==='Escape')open(false)});
+function en(s){return s.replace(/[۰-۹]/g,function(c){return c.charCodeAt(0)-1776}).replace(/[٠-٩]/g,function(c){return c.charCodeAt(0)-1632})}
+$('co').m.oninput=function(){this.setCustomValidity('')};
+$('co').onsubmit=function(e){e.preventDefault();var f=this,m=en(f.m.value.replace(/[\s-]/g,'')),d=$('done');if(!/^09\d{9}$/.test(m)){f.m.setCustomValidity('شماره موبایل باید با ۰۹ شروع شود و ۱۱ رقم باشد');f.m.reportValidity();return}
+var lines=[],sum=0;Object.keys(cart).forEach(function(k){var p=all().filter(function(x){return x.id===k})[0];if(p&&cart[k]>0){sum+=p.p*cart[k];lines.push('- '+p.t+' × '+fa(cart[k])+' = '+fa(p.p*cart[k])+' تومان')}});
+var txt='سفارش جدید\nنام: '+f.n.value+'\nموبایل: '+m+'\nآدرس: '+f.a.value+'\n'+lines.join('\n')+'\nجمع: '+fa(sum)+' تومان';
+d.textContent='';if(CONFIG.wa){window.open('https://wa.me/'+encodeURIComponent(CONFIG.wa)+'?text='+encodeURIComponent(txt),'_blank','noopener');d.textContent='سفارش آماده شد. پیام را در واتس‌اپ بفرستید تا ثبت شود.'}else{var pre=document.createElement('pre');pre.textContent=txt;var b=document.createElement('button');b.className='btn';b.type='button';b.textContent='کپی سفارش';b.onclick=function(){try{navigator.clipboard.writeText(txt);toast('کپی شد')}catch(x){}};d.append('سفارش شما آماده است. این متن را برای فروشنده بفرستید:',pre,b)}
+d.hidden=false;cart={};drawCart();f.reset()};
+var sel=document.querySelector('#sellForm select');sel.innerHTML=CATS.map(function(c,i){return '<option value="'+i+'">'+c+'</option>'}).join('');
+function shrink(file,cb){var r=new FileReader();r.onload=function(){var im=new Image();im.onload=function(){var s=Math.min(1,700/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=im.width*s;c.height=im.height*s;c.getContext('2d').drawImage(im,0,0,c.width,c.height);cb(c.toDataURL('image/jpeg',.72))};im.onerror=function(){cb('')};im.src=r.result};r.onerror=function(){cb('')};r.readAsDataURL(file)}
+$('sellForm').onsubmit=function(e){e.preventDefault();var f=this,E=f.elements,go=function(img){custom.push({id:'c'+Date.now(),t:E.title.value.trim(),c:+E.cat.value,p:+E.price.value,s:E.seller.value.trim(),d:E.desc.value.trim(),img:img,own:1});sv('kc_custom',custom);f.reset();cat=-1;chips();grid();toast('محصول شما در فروشگاه ثبت شد');location.hash='shop'};var fl=E.photo.files[0];if(fl)shrink(fl,go);else go('')};
+$('q').oninput=grid;$('sort').onchange=grid;chips();grid();drawCart();
+(function(){var p=[],c=CONFIG,u=function(s){return String(s).replace(/[^\w.]/g,'')};p.push('بافته‌های کرمان');if(c.phone)p.push(esc(c.phone));if(c.wa)p.push('<a href="https://wa.me/'+u(c.wa)+'">واتس‌اپ</a>');if(c.tg)p.push('<a href="https://t.me/'+u(c.tg)+'">تلگرام</a>');if(c.insta)p.push('<a href="https://instagram.com/'+u(c.insta)+'">اینستاگرام</a>');$('ft').innerHTML=p.join(' · ')})();
+
+
+var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+(function(){var ids=['09','16','14','11','01','03','10','07'],ring=$('ring'),ry=0,dr=false,lx=0,st=$('stage');
+ring.innerHTML=ids.map(function(i,k){return '<div class="c" style="--a:'+(k*360/ids.length)+'deg"><img src="'+IM(i)+'" alt=""></div>'}).join('');
+function tick(){if(!dr&&!RM)ry+=.14;ring.style.setProperty('--ry',ry+'deg');requestAnimationFrame(tick)}
+st.addEventListener('pointerdown',function(e){dr=true;lx=e.clientX;st.setPointerCapture(e.pointerId)});
+st.addEventListener('pointermove',function(e){if(!dr)return;ry+=(e.clientX-lx)*.4;lx=e.clientX});
+['pointerup','pointercancel'].forEach(function(t){st.addEventListener(t,function(){dr=false})});
+tick()})();
+var cur=null;
+$('grid').addEventListener('pointermove',function(e){if(e.pointerType!=='mouse'||RM)return;var c=e.target.closest&&e.target.closest('.p');if(cur&&cur!==c)cur.style.transform='';cur=c;if(!c)return;var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform='rotateX('+(-y*9)+'deg) rotateY('+(x*11)+'deg) translateZ(10px)'});
+$('grid').addEventListener('pointerleave',function(){if(cur){cur.style.transform='';cur=null}});
+</script>
+</body>
+</html>
